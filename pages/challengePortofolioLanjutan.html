@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/portofolio.css">
+    <!-- import google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Portofolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <!-- Tombol menu mobile -->
+        <div class="menu-mobile">
+            <button class="btn-responsive">Menu</button>
+            <ul class="menu-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="../pages/challengeWorkshopBlog.html">Blog</a></li>
+                <li><a href="#">My Inventory</a></li>
+            </ul>
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">MY INVENTORY</a></li>
+        </ul>
+    </nav>
+
+    <!-- Card -->
+    <div class="card">
+        <!-- [Card] Cell one -->
+        <div class="cell-one">
+            <div class="image-profile">
+                <img src="assets/img/person-2.png" alt="image profile photo">
+            </div>
+            <section class="section-one">
+                <h3 class="output">Nama Anda</h3>
+                <p class="output">Role Anda</p>
+                <div class="btn">
+                    <button class="btn-edit">Edit</button>
+                    <button class="btn-resume">Resume</button>
+                </div>
+            </section>
+        </div>
+        
+        <!-- [Card] Cell two -->
+        <div class="cell-two">
+            <section class="section-two">
+                <ul>
+                    <li>Avaliability</li>
+                    <li>Usia</li>
+                    <li>Lokasi</li>
+                    <li>Pengalaman</li>
+                    <li>Email</li>
+                </ul>
+            </section>
+            <section class="section-three">
+                <ul>
+                    <li>
+                        <span>:&nbsp;</span><p class="output"></p>
+                    </li>
+                    <li>
+                        <span>:&nbsp;</span><p class="output"></p>
+                    </li>
+                    <li>
+                        <span>:&nbsp;</span><p class="output"></p>
+                    </li>
+                    <li>
+                        <span>:&nbsp;</span><p class="output"></p>
+                    </li>
+                    <li>
+                        <span>:&nbsp;</span><p class="output"></p>
+                    </li>
+                </ul>
+            </section>
+            <div class="delete">
+                <p>Clear</p>
+                <i class="material-symbols-outlined">edit_square</i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div class="form-container">
+        <div>
+            <form>
+                <ul>
+                    <li>
+                        <label for="nama">Nama</label><br>
+                        <input type="text" id="nama" autocomplete="off" class="input"/>
+                    </li>
+                    <li>
+                        <label for="role">Role</label><br>
+                        <input type="text" id="role" autocomplete="off" class="input"/>
+                    </li>
+                    <li>
+                        <label for="availibility">Avaliability</label><br>
+                        <input type="text" id="availibility" autocomplete="off" class="input"/>
+                    </li>
+                    <li>
+                        <label for="age">Age</label><br>
+                        <input type="text" id="age" autocomplete="off" class="input"/>
+                    </li>
+                    <li>
+                        <label for="lokasi">Lokasi</label><br>
+                        <input type="text" id="lokasi" autocomplete="off" class="input"/>
+                    </li>
+                    <li>
+                        <label for="exp">Years Experience</label><br>
+                        <input type="text" id="exp" autocomplete="off" class="input"/>
+                    </li>
+                    <li>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" autocomplete="off" class="input"/>
+                    </li>
+                </ul>
+            </form>
+            <button class="btn-form" onclick="getValue();" type="submit">SUBMIT</button>
+        </div>
+    </div>
+    
+
+<script src="assets/js/portofolio.js"></script>
+</body>
+</html>
