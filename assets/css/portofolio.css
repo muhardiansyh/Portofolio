@@ -7,6 +7,10 @@
 
 body{
     background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -26,7 +30,7 @@ nav .btn-responsive{
 nav ul{
     margin: 0px auto;
     float: right;
-    padding-right: 10vw;
+    padding-right: 5vw;
 }
 
 nav ul li{
@@ -51,7 +55,7 @@ nav ul li a{
 
 /* Card */
 .card{
-    margin: 20px 20px;
+    margin: 20px 0;
     width: 90%;
     border-radius: 10px;
     background: white;
@@ -172,7 +176,7 @@ nav ul li a{
     justify-content: end;
     right: 0;
     color: red;
-    margin-right: 155px;
+    margin-right: 100px;
     cursor: pointer;
 }
 
@@ -194,6 +198,7 @@ nav ul li a{
     display: grid;
     grid-template-rows: 0fr;
     transition: .5s ease;
+    width: 90%;
 }
 
 .form-container > div{
@@ -206,9 +211,8 @@ nav ul li a{
 
 form{
     overflow: hidden;
-    width: 90%;
     height: auto;
-    margin: 5px 20px;
+    margin: 5px 0px;
     background: white;
     display: grid;
 }
@@ -236,9 +240,9 @@ form input[type=text]:focus{
 }
 
 .btn-form{
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin: 2px 20px;
+    margin: 2px 0px;
     color: white;
     border: none;
     font-weight: bold;
