@@ -7,6 +7,10 @@
 
 body{
     background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -26,7 +30,7 @@ nav .btn-responsive{
 nav ul{
     margin: 0px auto;
     float: right;
-    padding-right: 10vw;
+    padding-right: 5vw;
 }
 
 nav ul li{
@@ -51,7 +55,7 @@ nav ul li a{
 
 /* Card */
 .card{
-    margin: 20px 20px;
+    margin: 20px 0;
     width: 90%;
     border-radius: 10px;
     background: white;
