@@ -55,7 +55,7 @@ nav ul li a{
 
 /* Card */
 .card{
-    margin: 20px 20px;
+    margin: 20px 0;
     width: 90%;
     border-radius: 10px;
     background: white;
@@ -98,6 +98,7 @@ nav ul li a{
     padding: 15px;
     border-radius: 5px;
 }
+
 
 .btn .btn-edit{
     background: white;
